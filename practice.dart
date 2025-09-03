@@ -1,8 +1,13 @@
- main(){
-  const String name= "786767 \t   jhklh";
-  final int namber;
-  namber= 001634237726;
-  print(name);
+main () {
 
+  String namber = "100";
+  int sum = int.parse(namber);
+  sum += 88;
+  print(++sum);
+  namber = sum.toString();
+  double point = double.parse(namber);
+  point = 789.67;
+  print(point);
+  namber = point.toString();
 
- }
+}

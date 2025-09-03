@@ -1,0 +1,21 @@
+main(){
+  List <String> name=[
+    "sabbir=01634237726",
+    "\ntasin",
+    "\ntamjil",
+    "\nfahad",
+    "\nkibriya",
+  ];
+  name.removeAt(4);
+  print(name);
+  ///print(name.length);
+  ///print(name.first);
+  ///print(name.isEmpty);
+  name.addAll([
+    "hasam",
+    "taher",
+  ]);
+  print(name);
+  name.removeAt(1);
+  print(name);
+}

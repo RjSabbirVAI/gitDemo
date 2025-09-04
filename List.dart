@@ -1,21 +1,19 @@
-main(){
-  List <String> name=[
-    "sabbir=01634237726",
-    "\ntasin",
-    "\ntamjil",
-    "\nfahad",
-    "\nkibriya",
+ main(){
+  List  list1=<String>[
+    "hgghgh",
+    "account",
+    "layout",
   ];
-  name.removeAt(4);
-  print(name);
-  ///print(name.length);
-  ///print(name.first);
-  ///print(name.isEmpty);
-  name.addAll([
+  print(list1);
+  list1.remove("layout");
+  print(list1);
+  Set <String> name= {
+    "sami",
     "hasam",
-    "taher",
-  ]);
+    "sabbr",
+    "yamin",
+    "sabbir",
+  };
   print(name);
-  name.removeAt(1);
-  print(name);
-}
+
+ }

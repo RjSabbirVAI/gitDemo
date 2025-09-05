@@ -1,13 +1,12 @@
-main () {
+ main(){
+  Set <String> name={
+    "hasan",
+    "tanbir",
 
-  String namber = "100";
-  int sum = int.parse(namber);
-  sum += 88;
-  print(++sum);
-  namber = sum.toString();
-  double point = double.parse(namber);
-  point = 789.67;
-  print(point);
-  namber = point.toString();
+  };
+  print(name);
+  name.add("tasin");
+  name.addAll({"taher" "\nkaml" " bassu" " tamanna"});
+  print(name);
 
-}
+ }

@@ -1,12 +1,9 @@
- main(){
-  Set <String> name={
-    "hasan",
-    "tanbir",
-
+main(){
+  Map <String,int> studintname_roll={
+    "jahid" : 4834786,
+    "\ntamanna" : 5656788,
+    "\nshajid" : 6767665,
   };
-  print(name);
-  name.add("tasin");
-  name.addAll({"taher" "\nkaml" " bassu" " tamanna"});
-  print(name);
+  print(studintname_roll);
 
- }
+}

@@ -1,19 +1,32 @@
- main(){
-  int a=7;
-  int b =7;
-  int c=7;
-  int d=10;
+void main(){
+  int namber=7;
+  switch (namber){
+    case 1:
+      print("satur day");
+      break;
+    case 2:
+      print("sun day");
+      break;
+    case 3:
+      print("mon day");
+      break;
+    case 4:
+      print("tues day");
+      break;
+    case 5:
+      print("wednes day");
+      break;
+    case 6:
+      print("thurs day");
+      break;
+    case 7:
+      print("Fri Day");
+    default:
+      print(" wrong day ! ");
+      break;
 
-  if (a > b && a > c  &&  a > d)
-    print("a is larges");
-  else if (b > c && b > d  &&  b > a)
-    print("b is larges");
-  else if (c > d && c > a  &&  c > b)
-    print("c is larges");
-  else if (a==b && a==c &&  a==d)
-    print("All equal namber");
-  else
-   print ("d is larges");
 
+
+  }
 
  }

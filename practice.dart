@@ -1,32 +1,16 @@
-void main(){
-  int namber=7;
-  switch (namber){
-    case 1:
-      print("satur day");
-      break;
-    case 2:
-      print("sun day");
-      break;
-    case 3:
-      print("mon day");
-      break;
-    case 4:
-      print("tues day");
-      break;
-    case 5:
-      print("wednes day");
-      break;
-    case 6:
-      print("thurs day");
-      break;
-    case 7:
-      print("Fri Day");
-    default:
-      print(" wrong day ! ");
-      break;
-
-
-
+ main(){
+  for (int number=0; number<5; number++){
+    print(" niche jaw kaj kore asho");
+    print("kaj kore upore ashlam");
   }
+
+   List <String> student=[ "sabbir","hasib","ratul"];
+   for (int index =0; index<student.length;index++){
+     print( "$index good morning " +student [index]);
+   }
+   for(String studentname in student){
+     print("$studentname goob night");
+   }
+
 
  }

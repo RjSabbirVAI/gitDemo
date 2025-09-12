@@ -1,7 +1,13 @@
- void main(){
-  List number= [017162369,01321468932,012781354,01234523,01923146];
-  List name= [ "rafat","rohman","siam" ];
-  var cascade_notation=[ ...number,...name];
-  print(cascade_notation);
+void main(){
+  student(a:50,b:60);
+sum(100,"sabbir");
 
- }
+}
+student({int a=50, int b=50,int c=50, int d=50}) {
+   print("hello sir ${a+b+c+d}");
+}
+sum(int number1,String number2) =>
+  print("Sum $number1 $number2");
+function(){
+
+}
